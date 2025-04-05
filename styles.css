@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.lien{
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.nav-links ul{
+    display: flex;
+}
+
+.nav-links ul li{
+     margin: 20px;
+}
+
+.Pic-profil{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 500px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+   
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+    margin-left: 200px;
+    
+}
+
+
+.hero-text{
+    
+    margin-left: 30px;
+    margin-right: 200px;
+}
+
+.buttons{
+   
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.btn_btn-yellow{
+    padding: 25px;
+    border-radius: 35px;
+    background-color: orange;
+    color: black;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    
+}
+
+.btn_btn-grey{
+    padding: 20px;
+    padding-left: 13px ;
+    padding-right: 13px;
+    border-radius: 35px;
+    color: black;
+    background-color: rgb(200, 198, 198);
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+.btn_btn-red{
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 35px;
+    background-color: rgb(240, 93, 117);
+    color: black;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+    margin-top: 80px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+
+/* Responsive pour mobile */
+@media (max-width: 768px) {
+
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .nav-links ul {
+      flex-direction: column;
+      gap: 10px;
+      margin-left: 20px;
+    }
+  
+    .hero {
+      flex-direction: column;
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
+    }
+  
+    .Pic-profil {
+      width: 250px;
+      height: 250px;
+      margin: 0 auto;
+    }
+  
+    .hero-text {
+      margin: 20px;
+    }
+  
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    .btn_btn-yellow,
+    .btn_btn-grey,
+    .btn_btn-red {
+      padding: 15px 25px;
+      width: 200px;
+      text-align: center;
+    }
+  
+    .footer {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+      padding: 20px;
+      font-size: 13px;
+    }
+  }
