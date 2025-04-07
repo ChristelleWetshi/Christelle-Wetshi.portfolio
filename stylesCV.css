@@ -23,10 +23,16 @@ header{
     font-weight: bold;
     margin-left: 40px;
     padding-top: 10px;
+   
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
 }
 
 .lien{
-    color: black;
+    color: rgb(5, 5, 5);
     font-size: 1em;
     font-weight: bold;
     text-decoration: none;

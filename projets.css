@@ -46,8 +46,17 @@
     font-size: 20px;
   }
 
+  .nom a{
+    text-decoration: none;
+    color: black;
+  }
+
   .ul a{
     font-size: 15px;
+  }
+
+  .ul .active{
+    text-decoration: none;
   }
   
   /* Titre principal */
